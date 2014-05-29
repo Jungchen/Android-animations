@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAnimations</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Animaciones</string>
+    <string name="main_text">Android animations</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <array name="list_options">
+        <item>anim_gif</item>
+        <item>anim_gif2</item>
+    </array>
+
+</resources>
