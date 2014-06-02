@@ -7,10 +7,25 @@
     <string name="main_text">Android animations</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-
     <array name="list_options">
-        <item>anim_gif</item>
-        <item>anim_gif2</item>
+        <item>Animación 1</item>
+        <item>Animación 2</item>
+        <item>Animación 3</item>
+        <item>Animación 4</item>
+        <item>Animación 5</item>
+        <item>Animación 6</item>
+        <item>Animación 7</item>
+        <item>Animación 8</item>
+        <item>Animación 9</item>
+        <item>Animación 10</item>
+        <item>Animación 11</item>
+        <item>Animación 12</item>
+        <item>Animación 13</item>
+        <item>Animación 14</item>
+        <item>Animación 15</item>
     </array>
+
+    <string name="title_activity_animacion_vibracion">animacion_vibracion</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

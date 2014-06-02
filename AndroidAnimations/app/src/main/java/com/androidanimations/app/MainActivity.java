@@ -11,8 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.androidanimations.app.fragments.Anim_Gif;
-import com.androidanimations.app.fragments.Anim_Gif2;
+import com.androidanimations.app.fragments.*;
 import com.androidanimations.app.fragments.Main_Fragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
@@ -52,15 +51,53 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Log.e("POSICION: ", String.valueOf(position));
                 Fragment frag = null;
 
                 switch (position){
                     case 0:
-                        frag = new Anim_Gif();
+                        frag = new Animacion_1();
                         break;
                     case 1:
-                        frag = new Anim_Gif2();
+                        frag = new Animacion_2();
+                        break;
+                    case 2:
+                        frag = new Animacion_3();
+                        break;
+                    case 3:
+                        frag = new Animacion_4();
+                        break;
+                    case 4:
+                        frag = new Animacion_5();
+                        break;
+                    case 5:
+                        frag = new Animacion_6();
+                        break;
+                    case 6:
+                        frag = new Animacion_7();
+                        break;
+                    case 7:
+                        frag = new Animacion_8();
+                        break;
+                    case 8:
+                        frag = new Animacion_9();
+                        break;
+                    case 9:
+                        frag = new Animacion_10();
+                        break;
+                    case 10:
+                        frag = new Animacion_11();
+                        break;
+                    case 11:
+                        frag = new Animacion_12();
+                        break;
+                    case 12:
+                        frag = new Animacion_13();
+                        break;
+                    case 13:
+                        frag = new Animacion_14();
+                        break;
+                    case 14:
+                        frag = new Animacion_15();
                         break;
                 }
                 fragmentManager.beginTransaction().replace(R.id.content_frame, frag).commit();
